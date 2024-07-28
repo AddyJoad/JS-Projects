@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Your Local Time</title>
+    <style>
+      body {
+        background-color: #212121;
+        color: #fff;
+      }
+      .center {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #clock {
+        font-size: 40px;
+        background-color: orange;
+        padding: 20px 50px;
+        margin-top: 10px;
+        border-radius: 10px;
+      }
+      nav{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            border-bottom: 2px solid #F0F0F0; ;
+            background-color: #113E21;
+            height: 12vh;
+        }
+        nav a{
+            color: #B38B59;    
+            padding: 2%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: calc(5px + 2vmin);
+        }
+      
+    </style>
+  </head>
+  <body>
+    <nav> 
+      <a href="../index.html">Home</a>
+      <a href="one.html">Colour Scheme Switcher</a>
+      <a href="two.html">BMI Calculator</a>
+      <a href="four.html">Number Guess Game</a>
+  </nav>
+    <div class="center">
+      <div id="banner"><span>Your local Time</span></div>
+      <div id="clock"></div>
+    </div>
+    <script src="three.js"></script>
+  </body>
+</html>
